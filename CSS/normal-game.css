@@ -1,0 +1,166 @@
+body{
+    margin:0;
+}
+
+ul{
+    margin: 0;
+}
+
+h2{
+    margin:0;
+    font-size:30px;
+}
+
+header{
+    background:rgba(0,0,0,0.4)
+}
+
+nav{
+    background:#ccc;
+    height:50px;
+}
+
+#banner{
+    background: transparent;
+    height:810px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    float:right;
+}
+
+nav ul li,nav .logo{
+    display:inline-block;
+    line-height:50px;
+    margin-right:20px;
+    font-weight: bold;
+}
+
+nav ul li a{
+    line-height: inherit;
+    text-decoration:none;
+    display:inline-block;
+    height:inherit;
+    color:#111;
+}
+
+nav ul li.logo{
+    float:left;
+}
+
+
+.content-2{
+    margin:70px 0;
+    background:url("../IMG/g-g-02.jpg");
+}
+
+
+.mid{
+    min-height: 900px;
+    padding:0 10px 0 10px;
+    position: relative;
+    margin:0 auto;
+    width:50%;
+
+}
+
+.mid h2{
+    padding: 35px 0 10px 0;
+    text-align:center;
+}
+
+
+.mid p {
+    font-weight: bold;
+    height: 800px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    padding:5px 60px;
+}
+
+.a{
+    min-height:900px;
+    background: rgba(255,255,255,0.5) ;
+    color:#111111;
+}
+
+
+
+
+
+button{
+    float:none;
+    border: none;
+    font-weight: bold;
+    padding:14px 28px;
+    background-color: rgba(0,0,0,0.4) ;
+    font-size: 20px;
+    letter-spacing: 4px;
+    border-radius: 6px;
+}
+
+button a{
+
+    color: #eee;
+    text-decoration: none;
+}
+
+
+
+.logo{
+    font-size: 20px;
+    font-weight:700;
+    letter-spacing: 1px;
+}
+
+.logo a{
+    color:#111;
+    padding:10px;
+    text-decoration:none;
+}
+
+footer {
+    background:#333;
+    color:#ffffff;
+    min-height:200px;
+    text-align: center;
+}
+ul.share-group{
+    display: block;
+    width:1080px;
+    margin:0  auto;
+    padding:30px 50px 20px 50px;
+}
+.share-group li{
+    display:inline-block;
+    padding:10px;
+}
+
+.share-group li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.copy{
+    padding:20px;
+}
+
+.main-wrapper{
+    background: #444 url("../IMG/03.jpg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.sg{
+    padding:5px 50px;
+}
+
+.sg a{
+    text-decoration: none;
+    color:#ffffff;
+}

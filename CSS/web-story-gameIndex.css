@@ -1,0 +1,170 @@
+body{
+    margin:0;
+}
+
+ul{
+    margin: 0;
+}
+
+h2{
+    margin:0;
+    font-size:30px;
+}
+
+header{
+    background:rgba(0,0,0,0.4)
+}
+
+nav{
+    background:#ccc;
+    height:50px;
+}
+
+#banner{
+    background: transparent;
+    height:810px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    float:right;
+}
+
+nav ul li,nav .logo{
+    display:inline-block;
+    line-height:50px;
+    margin-right:20px;
+    font-weight: bold;
+}
+
+nav ul li a{
+    line-height: inherit;
+    text-decoration:none;
+    display:inline-block;
+    height:inherit;
+    color:#111;
+}
+
+nav ul li.logo{
+    float:left;
+}
+
+
+
+.logo{
+    font-size: 20px;
+    font-weight:700;
+    letter-spacing: 1px;
+}
+
+.logo a{
+    color:#111;
+    padding:10px;
+    text-decoration:none;
+}
+
+footer {
+    background:#333;
+    color:#ffffff;
+    min-height:200px;
+    text-align: center;
+}
+ul.share-group{
+    display: block;
+    width:1080px;
+    margin:0  auto;
+    padding:30px 50px 20px 50px;
+}
+.share-group li{
+    display:inline-block;
+    padding:10px;
+}
+
+.copy{
+    padding:20px;
+}
+
+.main-wrapper{
+    background: #444 url("../IMG/03.jpg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.content{
+    color:#ffffff;
+    margin:20px auto;
+    width: 50%;
+    height: 1000px;
+}
+
+h2 ,h3{
+    text-align: center;
+    padding:15px;
+}
+
+.t1{
+    height:280px;
+    padding: 10px;
+    margin-top:40px;
+    margin-bottom:10px;
+    background:url("../IMG/s-01.jpg")
+
+}
+
+.t2{
+    height:280px;
+    margin-top:40px;
+    margin-bottom:10px;
+    background: url("../IMG/s-02.jpg");
+}
+
+.t3{
+    height:280px;
+    margin-top:40px;
+    background: url("../IMG/s-03.jpg");
+}
+
+.t4{
+    height:280px;
+    padding: 10px;
+    margin-top:40px;
+    margin-bottom:10px;
+    background:url("../IMG/g-01.jpg")
+
+}
+
+.t5{
+    height:280px;
+    margin-top:40px;
+    margin-bottom:10px;
+    background: url("../IMG/g-02.jpg");
+}
+
+.t6{
+    height:280px;
+    margin-top:40px;
+    background: url("../IMG/g-03.jpg");
+}
+
+
+ .alink{
+    text-align: center;
+    margin:100px 300px;
+}
+ a{
+     color:#ffffff;
+     text-decoration: none;
+ }
+
+.sg{
+    padding:5px 50px;
+}
+
+.sg a{
+    text-decoration: none;
+    color:#ffffff;
+}

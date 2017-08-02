@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小调查</title>
+    <style>
+        body{
+            font-size: larger;
+            font-weight: bolder;
+            background-image: url(../../IMG/03.jpg);
+        }
+        .box{
+            padding:3% 20%;
+        }
+       .h1{
+
+           padding:20px;
+           margin-bottom:150px;
+           text-align: center;
+       }
+       .content{
+
+            padding:0 280px;
+            text-align: left;
+        }
+        .post1{
+            text-align: center;
+        }
+        form{
+            color:#fff;
+            background:rgba(0,0,0,0.4)
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+     <form action="" method="post" target="_blank" onsubmit="window.opener=null;window.close();">
+    <div class="h1"><h1>给我的建议</h1></div>
+    <div class="content">
+     您的性别是:
+    <input type="radio" name="sex" value="">男
+    <input type="radio" name="sex" value="">女
+      <br/>
+        <br/>
+        <br/>
+      您的年龄是:
+
+     <input type="radio" name="age"> 14-18
+     <input type="radio" name="age"> 19-35
+     <input type="radio" name="age"> 35-50
+     <input type="radio" name="age"> 50以上
+        <br/>
+        <br/>
+        <br/>
+     您的职业是:
+         <input type="checkbox" name="学生" value="学生"  >在校学生
+         <input type="checkbox" name="教师" value="教师"  >教师
+         <input type="checkbox" name="公司职员" value="公司职员"  >公司职员
+         <input type="checkbox" name=">无业人员" value=">无业人员"  >无业人员
+        <br/>
+        <br/>
+        <br/>
+       &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+     <input type="text" maxlength="10">(其他职业)
+        <br/>
+        <br/>
+        <br/>
+        通行密码：
+        <input type="password" name="芝麻开门">
+        <br/>
+        &nbsp; &nbsp;&nbsp; &nbsp;（输入“芝麻开门”首字母）
+        <br/>
+        <br/>
+        <br/>
+     您的建议:
+        <br/>
+        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+     <textarea  maxlength="100" cols="50px" rows="5px" required>100字以内</textarea>
+        <br/>
+        <br/>
+        <br/>
+      提交材料:
+         <input type="file" value="">
+         <br/>
+        <br/>
+        <br/>
+        <div class="post1">
+      <input type="submit" value="提交" name="submit">
+      <input type="reset" value="重置" name="reset">
+            <br/>
+            <br/>
+            <br/>
+      </form>
+    </div>
+<script src="../../JS/MainWeb.js"></script>
+</body>
+</html>
